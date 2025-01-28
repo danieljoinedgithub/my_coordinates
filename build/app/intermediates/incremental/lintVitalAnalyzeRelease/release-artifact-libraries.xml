@@ -1,13 +1,13 @@
 <libraries>
   <library
-      name="__local_aars__:/home/clint/Desktop/Apps/my_coordinates/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
-      jars="/home/clint/Desktop/Apps/my_coordinates/build/app/intermediates/flutter/release/libs.jar"
-      resolved="__local_aars__:/home/clint/Desktop/Apps/my_coordinates/build/app/intermediates/flutter/release/libs.jar:unspecified"/>
+      name="__local_aars__:/home/clint/Documents/GitHub/my_coordinates/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
+      jars="/home/clint/Documents/GitHub/my_coordinates/build/app/intermediates/flutter/release/libs.jar"
+      resolved="__local_aars__:/home/clint/Documents/GitHub/my_coordinates/build/app/intermediates/flutter/release/libs.jar:unspecified"/>
   <library
       name=":@@:flutter_compass::release"
-      jars="/home/clint/Desktop/Apps/my_coordinates/build/flutter_compass/.transforms/3328775dba1ed985ffc0c1a150f894c2/transformed/out/jars/classes.jar:/home/clint/Desktop/Apps/my_coordinates/build/flutter_compass/.transforms/3328775dba1ed985ffc0c1a150f894c2/transformed/out/jars/libs/R.jar"
+      jars="/home/clint/Documents/GitHub/my_coordinates/build/flutter_compass/.transforms/25d238c52a4146438c2ac90de1b292a8/transformed/out/jars/classes.jar:/home/clint/Documents/GitHub/my_coordinates/build/flutter_compass/.transforms/25d238c52a4146438c2ac90de1b292a8/transformed/out/jars/libs/R.jar"
       resolved="com.hemanthraj.fluttercompass:flutter_compass:unspecified"
-      folder="/home/clint/Desktop/Apps/my_coordinates/build/flutter_compass/.transforms/3328775dba1ed985ffc0c1a150f894c2/transformed/out"
+      folder="/home/clint/Documents/GitHub/my_coordinates/build/flutter_compass/.transforms/25d238c52a4146438c2ac90de1b292a8/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -18,9 +18,9 @@
       proguardRules="proguard.txt"/>
   <library
       name=":@@:geolocator_android::release"
-      jars="/home/clint/Desktop/Apps/my_coordinates/build/geolocator_android/.transforms/92c77077e37b30149e83af7a72c26f6f/transformed/out/jars/classes.jar:/home/clint/Desktop/Apps/my_coordinates/build/geolocator_android/.transforms/92c77077e37b30149e83af7a72c26f6f/transformed/out/jars/libs/R.jar"
+      jars="/home/clint/Documents/GitHub/my_coordinates/build/geolocator_android/.transforms/740fb7ea466e4e6b34227f909d9c5774/transformed/out/jars/classes.jar:/home/clint/Documents/GitHub/my_coordinates/build/geolocator_android/.transforms/740fb7ea466e4e6b34227f909d9c5774/transformed/out/jars/libs/R.jar"
       resolved="com.baseflow.geolocator:geolocator_android:unspecified"
-      folder="/home/clint/Desktop/Apps/my_coordinates/build/geolocator_android/.transforms/92c77077e37b30149e83af7a72c26f6f/transformed/out"
+      folder="/home/clint/Documents/GitHub/my_coordinates/build/geolocator_android/.transforms/740fb7ea466e4e6b34227f909d9c5774/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -31,9 +31,9 @@
       proguardRules="proguard.txt"/>
   <library
       name=":@@:url_launcher_android::release"
-      jars="/home/clint/Desktop/Apps/my_coordinates/build/url_launcher_android/.transforms/6c9185ab7294ba816db150ac34a4ed21/transformed/out/jars/classes.jar:/home/clint/Desktop/Apps/my_coordinates/build/url_launcher_android/.transforms/6c9185ab7294ba816db150ac34a4ed21/transformed/out/jars/libs/R.jar"
+      jars="/home/clint/Documents/GitHub/my_coordinates/build/url_launcher_android/.transforms/c02bcfe61df369bd5e52edcd0020dc6d/transformed/out/jars/classes.jar:/home/clint/Documents/GitHub/my_coordinates/build/url_launcher_android/.transforms/c02bcfe61df369bd5e52edcd0020dc6d/transformed/out/jars/libs/R.jar"
       resolved="io.flutter.plugins.urllauncher:url_launcher_android:unspecified"
-      folder="/home/clint/Desktop/Apps/my_coordinates/build/url_launcher_android/.transforms/6c9185ab7294ba816db150ac34a4ed21/transformed/out"
+      folder="/home/clint/Documents/GitHub/my_coordinates/build/url_launcher_android/.transforms/c02bcfe61df369bd5e52edcd0020dc6d/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"

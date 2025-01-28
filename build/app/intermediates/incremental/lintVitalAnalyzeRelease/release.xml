@@ -4,9 +4,9 @@
     minSdkVersion="21"
     targetSdkVersion="35"
     shrinking="true"
-    mergedManifest="/home/clint/Desktop/Apps/my_coordinates/build/app/intermediates/merged_manifest/release/AndroidManifest.xml"
-    proguardFiles="/home/clint/Desktop/Apps/my_coordinates/build/app/intermediates/default_proguard_files/global/proguard-android-optimize.txt-8.2.1:/home/clint/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
-    partialResultsDir="/home/clint/Desktop/Apps/my_coordinates/build/app/intermediates/lint_vital_partial_results/release/out"
+    mergedManifest="/home/clint/Documents/GitHub/my_coordinates/build/app/intermediates/merged_manifest/release/AndroidManifest.xml"
+    proguardFiles="/home/clint/Documents/GitHub/my_coordinates/build/app/intermediates/default_proguard_files/global/proguard-android-optimize.txt-8.2.1:/home/clint/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
+    partialResultsDir="/home/clint/Documents/GitHub/my_coordinates/build/app/intermediates/lint_vital_partial_results/release/out"
     desugaredMethodsFiles="/home/clint/.gradle/caches/transforms-3/5c7fdb4d9dba09de6687e5fa990cba96/transformed/D8BackportedDesugaredMethods.txt">
   <buildFeatures
       namespacing="REQUIRED"/>
@@ -27,11 +27,11 @@
         value="android.app.Application" />
   </manifestPlaceholders>
   <artifact
-      classOutputs="/home/clint/Desktop/Apps/my_coordinates/build/app/intermediates/javac/release/classes:/home/clint/Desktop/Apps/my_coordinates/build/app/tmp/kotlin-classes/release:/home/clint/Desktop/Apps/my_coordinates/build/app/kotlinToolingMetadata:/home/clint/Desktop/Apps/my_coordinates/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar"
+      classOutputs="/home/clint/Documents/GitHub/my_coordinates/build/app/intermediates/javac/release/classes:/home/clint/Documents/GitHub/my_coordinates/build/app/tmp/kotlin-classes/release:/home/clint/Documents/GitHub/my_coordinates/build/app/kotlinToolingMetadata:/home/clint/Documents/GitHub/my_coordinates/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar"
       type="MAIN"
       applicationId="com.example.my_coordinates"
-      generatedSourceFolders="/home/clint/Desktop/Apps/my_coordinates/build/app/generated/ap_generated_sources/release/out"
-      generatedResourceFolders="/home/clint/Desktop/Apps/my_coordinates/build/app/generated/res/resValues/release"
+      generatedSourceFolders="/home/clint/Documents/GitHub/my_coordinates/build/app/generated/ap_generated_sources/release/out"
+      generatedResourceFolders="/home/clint/Documents/GitHub/my_coordinates/build/app/generated/res/resValues/release"
       desugaredMethodsFiles="/home/clint/.gradle/caches/transforms-3/5c7fdb4d9dba09de6687e5fa990cba96/transformed/D8BackportedDesugaredMethods.txt">
   </artifact>
 </variant>
