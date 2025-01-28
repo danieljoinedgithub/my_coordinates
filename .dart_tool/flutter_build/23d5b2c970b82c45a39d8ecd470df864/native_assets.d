@@ -1,0 +1,1 @@
+ /home/clint/Documents/GitHub/my_coordinates/.dart_tool/flutter_build/23d5b2c970b82c45a39d8ecd470df864/native_assets.yaml: 
