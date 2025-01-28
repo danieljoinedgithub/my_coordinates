@@ -1,0 +1,1 @@
+ /home/clint/Desktop/Apps/my_coordinates/.dart_tool/flutter_build/7ded3e7323f63ed18a37b22b61fa1f99/native_assets.yaml: 
