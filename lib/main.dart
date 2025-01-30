@@ -2,21 +2,34 @@ import 'package:flutter/material.dart';
 import 'gps.dart';
 import 'package:geolocator/geolocator.dart';
 import 'ui.dart';
+import 'Widgets/theme_notifier.dart';
+import 'package:provider/provider.dart';
+import 'gps_settings_notifier.dart';
 
 void main() {
-  runApp(MyApp());
-  
+  runApp(
+    MultiProvider(
+      providers: [
+        ChangeNotifierProvider(create: (_) => ThemeNotifier()),
+        ChangeNotifierProvider(create: (_) => GpsSettingsNotifier()),
+      ],
+      child: MyApp(),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'LazyGPS',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: HomeScreen(),
+    return Consumer<ThemeNotifier>(
+      builder: (context, themeNotifier, child) {
+        return MaterialApp(
+          title: 'TrailSync',
+          theme: themeNotifier.themeData,
+          restorationScopeId: 'root',
+          home: HomeScreen(),
+        );
+      },
     );
   }
 }
@@ -43,7 +56,7 @@ class _HomeScreenState extends State<HomeScreen> {
           }
           if (snapshot.data == true) {
             return StreamBuilder<Position>(
-              stream: _geolocatorService.startLiveTracking(),
+              stream: _geolocatorService.startLiveTracking(context),
               builder: (context, snapshot) {
                 if (snapshot.connectionState == ConnectionState.waiting) {
                   final Position position = Position(longitude: 0, latitude: 0, timestamp: DateTime.now(), accuracy: 0, altitude: 0, altitudeAccuracy: 0, heading: 0, headingAccuracy: 0, speed: 0, speedAccuracy: 0);

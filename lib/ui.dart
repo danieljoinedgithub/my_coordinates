@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
-import 'package:my_coordinates/gps.dart';
+import 'package:TrailSync/gps.dart';
 import 'Widgets/my_widgets.dart';
 import 'auxiliar_functions/CoordsToDatetime.dart';
 

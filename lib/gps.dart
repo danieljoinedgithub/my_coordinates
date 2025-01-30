@@ -1,5 +1,8 @@
 import 'dart:async';
+import 'package:TrailSync/gps_settings_notifier.dart';
+import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
+import 'package:provider/provider.dart';
 
 class GeolocatorService {
   StreamSubscription<Position>? _positionSubscription;
@@ -46,19 +49,16 @@ class GeolocatorService {
 
   /// Inicia o tacking ao vivo da localização.
   /// Retorna um stream de objetos Position.
-  Stream<Position> startLiveTracking({
-    LocationAccuracy accuracy = LocationAccuracy.high,
-    int distanceFilter = 1,
-    
-  }) {
-    return Geolocator.getPositionStream(
-      locationSettings: LocationSettings(
-        accuracy: accuracy,
-        distanceFilter: distanceFilter,
-      ),
-    );
-  }
-
+ Stream<Position> startLiveTracking(BuildContext context) {
+  final gpsSettings = Provider.of<GpsSettingsNotifier>(context, listen: false);
+  
+  return Geolocator.getPositionStream(
+    locationSettings: LocationSettings(
+      accuracy: gpsSettings.accuracy,
+      distanceFilter: gpsSettings.distanceFilter.toInt(),
+    ),
+  );
+}
   /// Inscreve-se para rastreamento ao vivo e fornece atualizações via callback.
   void subscribeToPositionUpdates({
     required void Function(Position) onPositionUpdate,
@@ -70,10 +70,7 @@ class GeolocatorService {
       stopLiveTracking();
     }
 
-    _positionSubscription = startLiveTracking(
-      accuracy: accuracy,
-      distanceFilter: distanceFilter,
-    ).listen(onPositionUpdate, onError: onError);
+    
   }
 
   /// Cancela a inscrição do rastreamento ao vivo.

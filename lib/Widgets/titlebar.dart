@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'settings.dart';
 
 class TitleWidget extends StatelessWidget {
   // Constructor to accept text and optional style
@@ -26,7 +27,7 @@ class TitleWidget extends StatelessWidget {
                     children: [
                     Icon(Icons.assistant_navigation ),
                     Text(
-                    "LazyGPS", 
+                    "TrailSync", 
                     style: TextStyle(
                       fontSize: 20,
                       letterSpacing: 1.5,
@@ -35,7 +36,7 @@ class TitleWidget extends StatelessWidget {
 
                   ),
                 ),
-                Icon(Icons.settings)
+                SettingsWidget()
               ],
             )
           ),

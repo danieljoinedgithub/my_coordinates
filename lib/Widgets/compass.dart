@@ -2,17 +2,21 @@ import 'package:flutter/material.dart';
 import 'package:flutter_compass/flutter_compass.dart';
 import 'dart:math';
 import 'package:geolocator/geolocator.dart';
+import 'package:TrailSync/Widgets/theme_notifier.dart';
+import 'package:provider/provider.dart';
 
-class  CompassWidget extends StatelessWidget {
+
+class CompassWidget extends StatelessWidget {
   final Position heading;
-  // Constructor to accept text and optional style
   const CompassWidget({required this.heading});
 
   @override
   Widget build(BuildContext context) {
-    return StreamBuilder<CompassEvent>(
-      stream: FlutterCompass.events,
-      builder: (context, snapshot) {
+    return Consumer<ThemeNotifier>(
+      builder: (context, themeNotifier, child) {
+        return StreamBuilder<CompassEvent>(
+          stream: FlutterCompass.events,
+          builder: (context, snapshot) {
         if (snapshot.hasError) {
           return Text('Error reading heading: ${snapshot.error}');
         }
@@ -52,10 +56,14 @@ class  CompassWidget extends StatelessWidget {
                     children: [
                     Transform.rotate(
                   angle: angle,
-                  child: AspectRatio(
-                    aspectRatio: 1,
-                    child: Image.asset("assets/images/compass.png"),
-                  ),
+                   child: AspectRatio(
+              aspectRatio: 1,
+              child: Image.asset(
+                themeNotifier.isDarkMode 
+                  ? "assets/images/compassinv.png"
+                  : "assets/images/compass.png"
+              ),
+            ),
                   
                 ),
                 Text("${(angle*57.3248407643).toStringAsFixed(1)}º", style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),),
@@ -69,7 +77,7 @@ class  CompassWidget extends StatelessWidget {
       ) 
     );
     
-  });
+  });});
 }
 
 }

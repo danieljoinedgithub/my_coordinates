@@ -30,6 +30,19 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name=":@@:shared_preferences_android::release"
+      jars="/home/clint/Documents/GitHub/my_coordinates/build/shared_preferences_android/.transforms/119c43a42fb28fe8504cefe82459e031/transformed/out/jars/classes.jar:/home/clint/Documents/GitHub/my_coordinates/build/shared_preferences_android/.transforms/119c43a42fb28fe8504cefe82459e031/transformed/out/jars/libs/R.jar"
+      resolved="io.flutter.plugins.sharedpreferences:shared_preferences_android:unspecified"
+      folder="/home/clint/Documents/GitHub/my_coordinates/build/shared_preferences_android/.transforms/119c43a42fb28fe8504cefe82459e031/transformed/out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name=":@@:url_launcher_android::release"
       jars="/home/clint/Documents/GitHub/my_coordinates/build/url_launcher_android/.transforms/c02bcfe61df369bd5e52edcd0020dc6d/transformed/out/jars/classes.jar:/home/clint/Documents/GitHub/my_coordinates/build/url_launcher_android/.transforms/c02bcfe61df369bd5e52edcd0020dc6d/transformed/out/jars/libs/R.jar"
       resolved="io.flutter.plugins.urllauncher:url_launcher_android:unspecified"
@@ -181,10 +194,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.customview:customview:1.0.0@aar"
-      jars="/home/clint/.gradle/caches/transforms-3/c0c8717ff98a4860600fb9f4afbc8274/transformed/customview-1.0.0/jars/classes.jar"
-      resolved="androidx.customview:customview:1.0.0"
-      folder="/home/clint/.gradle/caches/transforms-3/c0c8717ff98a4860600fb9f4afbc8274/transformed/customview-1.0.0"
+      name="androidx.customview:customview:1.1.0@aar"
+      jars="/home/clint/.gradle/caches/transforms-3/c782beb3551e431640c89016646f4746/transformed/customview-1.1.0/jars/classes.jar"
+      resolved="androidx.customview:customview:1.1.0"
+      folder="/home/clint/.gradle/caches/transforms-3/c782beb3551e431640c89016646f4746/transformed/customview-1.1.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -407,10 +420,62 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name="androidx.preference:preference:1.2.1@aar"
+      jars="/home/clint/.gradle/caches/transforms-3/3423ad43eb5d78e4c674b032a330d643/transformed/preference-1.2.1/jars/classes.jar"
+      resolved="androidx.preference:preference:1.2.1"
+      folder="/home/clint/.gradle/caches/transforms-3/3423ad43eb5d78e4c674b032a330d643/transformed/preference-1.2.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="androidx.browser:browser:1.8.0@aar"
       jars="/home/clint/.gradle/caches/transforms-3/5fd828c943c2aae4856e4aa49ae40e71/transformed/browser-1.8.0/jars/classes.jar"
       resolved="androidx.browser:browser:1.8.0"
       folder="/home/clint/.gradle/caches/transforms-3/5fd828c943c2aae4856e4aa49ae40e71/transformed/browser-1.8.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.recyclerview:recyclerview:1.0.0@aar"
+      jars="/home/clint/.gradle/caches/transforms-3/65cfd5b8a1fe8faa1c1e5683d3fcc2b8/transformed/recyclerview-1.0.0/jars/classes.jar"
+      resolved="androidx.recyclerview:recyclerview:1.0.0"
+      folder="/home/clint/.gradle/caches/transforms-3/65cfd5b8a1fe8faa1c1e5683d3fcc2b8/transformed/recyclerview-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.legacy:legacy-support-core-ui:1.0.0@aar"
+      jars="/home/clint/.gradle/caches/transforms-3/6868a731879f247fe30e2d101d84a69d/transformed/legacy-support-core-ui-1.0.0/jars/classes.jar"
+      resolved="androidx.legacy:legacy-support-core-ui:1.0.0"
+      folder="/home/clint/.gradle/caches/transforms-3/6868a731879f247fe30e2d101d84a69d/transformed/legacy-support-core-ui-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.slidingpanelayout:slidingpanelayout:1.2.0@aar"
+      jars="/home/clint/.gradle/caches/transforms-3/8b54bb021155f3ee6c86129d6f3f83b3/transformed/slidingpanelayout-1.2.0/jars/classes.jar"
+      resolved="androidx.slidingpanelayout:slidingpanelayout:1.2.0"
+      folder="/home/clint/.gradle/caches/transforms-3/8b54bb021155f3ee6c86129d6f3f83b3/transformed/slidingpanelayout-1.2.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -459,6 +524,248 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name="androidx.appcompat:appcompat:1.1.0@aar"
+      jars="/home/clint/.gradle/caches/transforms-3/c029d973be620a8c27af21475e044d05/transformed/appcompat-1.1.0/jars/classes.jar"
+      resolved="androidx.appcompat:appcompat:1.1.0"
+      folder="/home/clint/.gradle/caches/transforms-3/c029d973be620a8c27af21475e044d05/transformed/appcompat-1.1.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.fragment:fragment-ktx:1.7.1@aar"
+      jars="/home/clint/.gradle/caches/transforms-3/944eefc22a8f4e51fac3aa5f6de5de65/transformed/jetified-fragment-ktx-1.7.1/jars/classes.jar"
+      resolved="androidx.fragment:fragment-ktx:1.7.1"
+      folder="/home/clint/.gradle/caches/transforms-3/944eefc22a8f4e51fac3aa5f6de5de65/transformed/jetified-fragment-ktx-1.7.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.activity:activity-ktx:1.8.1@aar"
+      jars="/home/clint/.gradle/caches/transforms-3/912b1234e5dc823c29fa7e12c6f8f23e/transformed/jetified-activity-ktx-1.8.1/jars/classes.jar"
+      resolved="androidx.activity:activity-ktx:1.8.1"
+      folder="/home/clint/.gradle/caches/transforms-3/912b1234e5dc823c29fa7e12c6f8f23e/transformed/jetified-activity-ktx-1.8.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.legacy:legacy-support-core-utils:1.0.0@aar"
+      jars="/home/clint/.gradle/caches/transforms-3/3df7988115c79f4a08f9db12ee016dab/transformed/legacy-support-core-utils-1.0.0/jars/classes.jar"
+      resolved="androidx.legacy:legacy-support-core-utils:1.0.0"
+      folder="/home/clint/.gradle/caches/transforms-3/3df7988115c79f4a08f9db12ee016dab/transformed/legacy-support-core-utils-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.appcompat:appcompat-resources:1.1.0@aar"
+      jars="/home/clint/.gradle/caches/transforms-3/f690385c18592982770b27e4d24ddb7f/transformed/jetified-appcompat-resources-1.1.0/jars/classes.jar"
+      resolved="androidx.appcompat:appcompat-resources:1.1.0"
+      folder="/home/clint/.gradle/caches/transforms-3/f690385c18592982770b27e4d24ddb7f/transformed/jetified-appcompat-resources-1.1.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.drawerlayout:drawerlayout:1.0.0@aar"
+      jars="/home/clint/.gradle/caches/transforms-3/b55d71b70dcc87129d0d66452930c736/transformed/drawerlayout-1.0.0/jars/classes.jar"
+      resolved="androidx.drawerlayout:drawerlayout:1.0.0"
+      folder="/home/clint/.gradle/caches/transforms-3/b55d71b70dcc87129d0d66452930c736/transformed/drawerlayout-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.coordinatorlayout:coordinatorlayout:1.0.0@aar"
+      jars="/home/clint/.gradle/caches/transforms-3/8f157f66423597c1afae86f47ee03e65/transformed/coordinatorlayout-1.0.0/jars/classes.jar"
+      resolved="androidx.coordinatorlayout:coordinatorlayout:1.0.0"
+      folder="/home/clint/.gradle/caches/transforms-3/8f157f66423597c1afae86f47ee03e65/transformed/coordinatorlayout-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.transition:transition:1.4.1@aar"
+      jars="/home/clint/.gradle/caches/transforms-3/702716da9abbaa9ace42dd05e0800167/transformed/transition-1.4.1/jars/classes.jar"
+      resolved="androidx.transition:transition:1.4.1"
+      folder="/home/clint/.gradle/caches/transforms-3/702716da9abbaa9ace42dd05e0800167/transformed/transition-1.4.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.lifecycle:lifecycle-runtime-ktx:2.7.0@aar"
+      jars="/home/clint/.gradle/caches/transforms-3/a634e248fd38a1a2246775d97d8ebf3c/transformed/jetified-lifecycle-runtime-ktx-2.7.0/jars/classes.jar"
+      resolved="androidx.lifecycle:lifecycle-runtime-ktx:2.7.0"
+      folder="/home/clint/.gradle/caches/transforms-3/a634e248fd38a1a2246775d97d8ebf3c/transformed/jetified-lifecycle-runtime-ktx-2.7.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0@aar"
+      jars="/home/clint/.gradle/caches/transforms-3/97f5285631139cd71657f1d335587dd2/transformed/jetified-lifecycle-viewmodel-ktx-2.7.0/jars/classes.jar"
+      resolved="androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0"
+      folder="/home/clint/.gradle/caches/transforms-3/97f5285631139cd71657f1d335587dd2/transformed/jetified-lifecycle-viewmodel-ktx-2.7.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.vectordrawable:vectordrawable-animated:1.1.0@aar"
+      jars="/home/clint/.gradle/caches/transforms-3/29f41d85facebdd928e54c75b088250a/transformed/vectordrawable-animated-1.1.0/jars/classes.jar"
+      resolved="androidx.vectordrawable:vectordrawable-animated:1.1.0"
+      folder="/home/clint/.gradle/caches/transforms-3/29f41d85facebdd928e54c75b088250a/transformed/vectordrawable-animated-1.1.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.vectordrawable:vectordrawable:1.1.0@aar"
+      jars="/home/clint/.gradle/caches/transforms-3/cbc1598f61b84fd49da0d08d6579741e/transformed/vectordrawable-1.1.0/jars/classes.jar"
+      resolved="androidx.vectordrawable:vectordrawable:1.1.0"
+      folder="/home/clint/.gradle/caches/transforms-3/cbc1598f61b84fd49da0d08d6579741e/transformed/vectordrawable-1.1.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.swiperefreshlayout:swiperefreshlayout:1.0.0@aar"
+      jars="/home/clint/.gradle/caches/transforms-3/e91be1c7f8eabf42aa33831a1598f688/transformed/swiperefreshlayout-1.0.0/jars/classes.jar"
+      resolved="androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
+      folder="/home/clint/.gradle/caches/transforms-3/e91be1c7f8eabf42aa33831a1598f688/transformed/swiperefreshlayout-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.asynclayoutinflater:asynclayoutinflater:1.0.0@aar"
+      jars="/home/clint/.gradle/caches/transforms-3/b7150742b1038a87594d610212aa04a1/transformed/asynclayoutinflater-1.0.0/jars/classes.jar"
+      resolved="androidx.asynclayoutinflater:asynclayoutinflater:1.0.0"
+      folder="/home/clint/.gradle/caches/transforms-3/b7150742b1038a87594d610212aa04a1/transformed/asynclayoutinflater-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.savedstate:savedstate-ktx:1.2.1@aar"
+      jars="/home/clint/.gradle/caches/transforms-3/283254c3bfb09b5335e46d11400ca39f/transformed/jetified-savedstate-ktx-1.2.1/jars/classes.jar"
+      resolved="androidx.savedstate:savedstate-ktx:1.2.1"
+      folder="/home/clint/.gradle/caches/transforms-3/283254c3bfb09b5335e46d11400ca39f/transformed/jetified-savedstate-ktx-1.2.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.datastore:datastore-preferences-core-jvm:1.1.1@jar"
+      jars="/home/clint/.gradle/caches/modules-2/files-2.1/androidx.datastore/datastore-preferences-core-jvm/1.1.1/e562d4a944240c0e67317f0b862da24aca3aabc/datastore-preferences-core-jvm-1.1.1.jar"
+      resolved="androidx.datastore:datastore-preferences-core-jvm:1.1.1"/>
+  <library
+      name="androidx.datastore:datastore-core-okio-jvm:1.1.1@jar"
+      jars="/home/clint/.gradle/caches/modules-2/files-2.1/androidx.datastore/datastore-core-okio-jvm/1.1.1/cba5887aaa9316d650b3ebc667243ed3a05f4407/datastore-core-okio-jvm-1.1.1.jar"
+      resolved="androidx.datastore:datastore-core-okio-jvm:1.1.1"/>
+  <library
+      name="androidx.datastore:datastore-core-android:1.1.1@aar"
+      jars="/home/clint/.gradle/caches/transforms-3/de0dce8be735a4e1badcfa3b4ff62d88/transformed/jetified-datastore-core-release/jars/classes.jar"
+      resolved="androidx.datastore:datastore-core-android:1.1.1"
+      folder="/home/clint/.gradle/caches/transforms-3/de0dce8be735a4e1badcfa3b4ff62d88/transformed/jetified-datastore-core-release"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.datastore:datastore-preferences-android:1.1.1@aar"
+      jars="/home/clint/.gradle/caches/transforms-3/fbddbc6397588f36b6f45f88e3b1e387/transformed/jetified-datastore-preferences-release/jars/classes.jar"
+      resolved="androidx.datastore:datastore-preferences-android:1.1.1"
+      folder="/home/clint/.gradle/caches/transforms-3/fbddbc6397588f36b6f45f88e3b1e387/transformed/jetified-datastore-preferences-release"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.datastore:datastore-android:1.1.1@aar"
+      jars="/home/clint/.gradle/caches/transforms-3/b8e470f5c54aa62a2540c5e4bf871bf1/transformed/jetified-datastore-release/jars/classes.jar"
+      resolved="androidx.datastore:datastore-android:1.1.1"
+      folder="/home/clint/.gradle/caches/transforms-3/b8e470f5c54aa62a2540c5e4bf871bf1/transformed/jetified-datastore-release"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="androidx.profileinstaller:profileinstaller:1.3.1@aar"
       jars="/home/clint/.gradle/caches/transforms-3/ec9fdb662d7f540d2603f340c7b5ab14/transformed/jetified-profileinstaller-1.3.1/jars/classes.jar"
       resolved="androidx.profileinstaller:profileinstaller:1.3.1"
@@ -485,6 +792,23 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name="androidx.collection:collection-ktx:1.1.0@jar"
+      jars="/home/clint/.gradle/caches/modules-2/files-2.1/androidx.collection/collection-ktx/1.1.0/f807b2f366f7b75142a67d2f3c10031065b5168/collection-ktx-1.1.0.jar"
+      resolved="androidx.collection:collection-ktx:1.1.0"/>
+  <library
+      name="androidx.cursoradapter:cursoradapter:1.0.0@aar"
+      jars="/home/clint/.gradle/caches/transforms-3/3f6ba0c6d8aa92fe61c965ad67264568/transformed/cursoradapter-1.0.0/jars/classes.jar"
+      resolved="androidx.cursoradapter:cursoradapter:1.0.0"
+      folder="/home/clint/.gradle/caches/transforms-3/3f6ba0c6d8aa92fe61c965ad67264568/transformed/cursoradapter-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="androidx.concurrent:concurrent-futures:1.1.0@jar"
       jars="/home/clint/.gradle/caches/modules-2/files-2.1/androidx.concurrent/concurrent-futures/1.1.0/50b7fb98350d5f42a4e49704b03278542293ba48/concurrent-futures-1.1.0.jar"
       resolved="androidx.concurrent:concurrent-futures:1.1.0"/>
@@ -501,6 +825,57 @@
       symbolFile="R.txt"
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
+  <library
+      name="androidx.documentfile:documentfile:1.0.0@aar"
+      jars="/home/clint/.gradle/caches/transforms-3/c26f75e7f8268a25e1feb8b8c892c636/transformed/documentfile-1.0.0/jars/classes.jar"
+      resolved="androidx.documentfile:documentfile:1.0.0"
+      folder="/home/clint/.gradle/caches/transforms-3/c26f75e7f8268a25e1feb8b8c892c636/transformed/documentfile-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.localbroadcastmanager:localbroadcastmanager:1.0.0@aar"
+      jars="/home/clint/.gradle/caches/transforms-3/32e2ffaa4e7993764d3f01f266361714/transformed/localbroadcastmanager-1.0.0/jars/classes.jar"
+      resolved="androidx.localbroadcastmanager:localbroadcastmanager:1.0.0"
+      folder="/home/clint/.gradle/caches/transforms-3/32e2ffaa4e7993764d3f01f266361714/transformed/localbroadcastmanager-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.print:print:1.0.0@aar"
+      jars="/home/clint/.gradle/caches/transforms-3/f93c5e88f3bf46a6a97cc01735b3fb14/transformed/print-1.0.0/jars/classes.jar"
+      resolved="androidx.print:print:1.0.0"
+      folder="/home/clint/.gradle/caches/transforms-3/f93c5e88f3bf46a6a97cc01735b3fb14/transformed/print-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="org.jetbrains.kotlin:kotlin-parcelize-runtime:1.9.22@jar"
+      jars="/home/clint/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-parcelize-runtime/1.9.22/de4a21d6560cadd035c69ba3af3ad1afecc95299/kotlin-parcelize-runtime-1.9.22.jar"
+      resolved="org.jetbrains.kotlin:kotlin-parcelize-runtime:1.9.22"/>
+  <library
+      name="org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.9.22@jar"
+      jars="/home/clint/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions-runtime/1.9.22/ee3bc0c3b55cb516ac92d6a093e1b939166b86a2/kotlin-android-extensions-runtime-1.9.22.jar"
+      resolved="org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.9.22"/>
+  <library
+      name="com.squareup.okio:okio-jvm:3.4.0@jar"
+      jars="/home/clint/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio-jvm/3.4.0/4e8bd78a52ab935ce383d0092646922154295e54/okio-jvm-3.4.0.jar"
+      resolved="com.squareup.okio:okio-jvm:3.4.0"/>
   <library
       name="com.google.guava:listenablefuture:1.0@jar"
       jars="/home/clint/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/1.0/c949a840a6acbc5268d088e47b04177bf90b3cad/listenablefuture-1.0.jar"
